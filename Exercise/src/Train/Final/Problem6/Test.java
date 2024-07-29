@@ -1,0 +1,34 @@
+package Train.Final.Problem6;
+
+public class Test {
+    public static void main(String[] args) {
+        // 第一个链表：
+        MyLinkedList<Integer> list1 = new MyLinkedList<>();
+        list1.add(2);
+        list1.add(4);
+        list1.add(1);
+        // 第一个链表的头结点：head1
+        MyLinkedList.Node<Integer> head1 = list1.head;
+
+        // 第二个链表：
+        MyLinkedList<Integer> list2 = new MyLinkedList<>();
+        list2.add(4);
+        list2.add(1);
+        list2.add(3);
+
+        // 第二个链表的头结点：head1
+        MyLinkedList.Node<Integer> head2 = list2.head;
+        list1.print();
+        list2.print();
+        // 功能1：在MyLinkedList类中，开发一个sort方法，对两个链表分别排序，并分别遍历输出
+        list1.sort();
+        list2.sort();
+        list1.print();
+        list2.print();
+        // 功能2：在MyLinkedList类中，开发一个mergeSort方法，支持将这两个升序排序的链表，合并成一个新链表，要求新链表中的节点仍然是递增排序的。
+        // ，然后对新链表遍历输出
+        MyLinkedList<Integer> newlist = list1.mergesort(list2);
+        newlist.print();
+
+    }
+}
