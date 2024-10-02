@@ -1,3 +1,0 @@
-AI 对我们来说就是一个可靠的编程助手，给我们提供了实时的建议和解决方案，无论是快速修复错误、提升代码质量，或者查找关键文档和资源，AI 作为编程助手都能让你事半功倍。
-今天为大家推荐一款适配了 Viusal Studio，VS Code，JetBrains 系列(本文使用)以及 Vim 等多种编译器环境的插件 Fitten Code，Fitten Code 是由非十大模型驱动的 AI 编程助手，它可以自动生成代码，提升开发效率，帮您调试 Bug，节省您的时间，另外还可以对话聊天，解决您编程碰到的问题。
-Fitten Code 免费且支持 80 多种语言：Python、C++、Javascript、Typescript、Java等。
